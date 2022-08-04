@@ -1,0 +1,15 @@
+/* .toggleButtonContent{
+    display: flex;
+    width: 96%;
+    
+}
+
+.toggleButtonContent > svg{
+   margin-left: auto;
+} */
+
+.ShapePreview {
+    border: 1px solid #ccc;
+    margin-left: -15px;
+    margin-right: 16px;
+}

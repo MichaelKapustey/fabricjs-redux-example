@@ -1,0 +1,9 @@
+.toggleButtonContent {
+    display: flex;
+    width: 96%;
+
+}
+
+.toggleButtonContent>svg {
+    margin-left: auto;
+}
