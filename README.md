@@ -9,7 +9,7 @@ This projects intents to show how to work with fabric.js in react-redux applicat
 1. Clone
 2. Run `npm install` in project directory
 3. Run `npm start` in project directory
-4. Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+4. Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 ## Explanation
 
@@ -37,9 +37,13 @@ Selecting, moving, rotating and resizing objects is something that fabric.js pro
 ## Exploring code
 
 Start with building an app. 
-Take a look at `src/features/*some*panel` to undersdand the ui
+
+Take a look at `src/features/[some]Panel` to undersdand the ui
+
 `features/canvas` wraps html canvas and initializes fabric.js
+
 `app/canvasMiddleware` handles communitcation between react-redux app and fabric.js
+
 `app/canvas/*.ts` files contain specific drawing logic 
 
 ## Comments welcome
